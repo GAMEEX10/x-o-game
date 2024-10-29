@@ -1,0 +1,43 @@
+
+body{
+    margin-top: 150px;
+    background-color: blue;
+}
+
+
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+#gameContainer{
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+}
+
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    /* 75 X 3 = 255 */
+    width: 255px;
+    margin: auto;
+    text-align: center;
+}
+
+h1, h2, button{
+    margin-left: 600px;
+    
+}
+
+button{
+    background-color: blue;
+   border: none;
+     cursor: pointer;
+     font-size: 20px;
+}
+
